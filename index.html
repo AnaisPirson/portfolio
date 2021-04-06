@@ -16,10 +16,262 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="collapseNavbar">
+            <ul class="navbar-nav w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="intro" id="home">
+      <div class="container">
+        <img
+          src="images/profile-img.jpeg"
+          alt="a picture of Anais Pirson black and white"
+        />
+
+        <h1 class="intro-title">
+          Hello, I am <br /><strong>Anais Pirson</strong>
+        </h1>
+        <p class="intro-subtitle">Web Developper</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img src="images/profile.jpg" alt="" />
+        </div>
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum ornare augue ut lobortis. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+            Pellentesque luctus fringilla lectus, eu varius nulla condimentum
+            ut. Donec elit sapien, imperdiet vel elementum vitae, placerat sed
+            orci. Sed non leo a dolor molestie laoreet. Ut vitae massa vel neque
+            fringilla tincidunt ut ut libero.
+          </p>
+        </div>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="icon-link">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon-link">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Skills</h1>
+        </div>
+
+        <div class="skill">
+          <div class="icon-container"></div>
+          <h1>Web Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum ornare augue ut lobortis. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+            Pellentesque luctus fringilla lectus, eu varius nulla condimentum
+            ut.
+          </p>
+        </div>
+        <div class="skill">
+          <div class="icon-container"></div>
+          <h1>Web Development</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum ornare augue ut lobortis. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+            Pellentesque luctus fringilla lectus, eu varius nulla condimentum
+            ut.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>View some of my recent work</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="images/portfolio1" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum vestibulum ornare augue ut lobortis.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum vestibulum ornare augue ut lobortis.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="images/portfolio1" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="images/portfolio1" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum vestibulum ornare augue ut lobortis.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experience</h1>
+          <h6>Past and current jobs</h6>
+        </div>
+        <div class="timeline">
+          <ul>
+            <li class="date" data-date="2011-Present">
+              <h1>Google</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum vestibulum ornare augue ut lobortis.
+              </p>
+            </li>
+            <li class="date" data-date="2008-2011">
+              <h1>Facebook</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum vestibulum ornare augue ut lobortis.
+              </p>
+            </li>
+            <li class="date" data-date="2006-2008">
+              <h1>Snapchat</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum vestibulum ornare augue ut lobortis.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name.."
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email.."
+            required
+          />
+          <label for="message">Message:</label>
+          <input type="text" name="message" id="messeage" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <section>
+      <footer class="copyright">
+        <p>2021 Anais Pirson</p>
+      </footer>
+    </section>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -49,7 +301,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
       vestibulum ornare augue ut lobortis. Class aptent taciti sociosqu ad
@@ -92,8 +344,8 @@
       massa, interdum sed porta nec, imperdiet sit amet nulla. Duis aliquet
       dolor lectus, eu commodo purus dapibus fringilla.
     </p>
-
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
